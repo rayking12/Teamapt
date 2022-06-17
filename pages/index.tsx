@@ -148,14 +148,15 @@ const Home: NextPage = () => {
 								</svg>
 							</button>
 						</div>
+						<div>
+							<div className="raysDemoHolder">
+								<div className="coin-left"></div>
+								<div className="raysLogo"></div>
+								<div className="rays"></div>
+								<div className="coin-right"></div>
+							</div>
+						</div>
 					</div>
-				</div>
-
-				<div className="raysDemoHolder">
-					<div className="coin-left"></div>
-					<div className="raysLogo"></div>
-					<div className="rays"></div>
-					<div className="coin-right"></div>
 				</div>
 			</section>
 		</>
