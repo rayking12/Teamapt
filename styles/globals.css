@@ -13,7 +13,7 @@ body {
 }
 
 .main {
-	height: 120vh;
+	height: 125vh;
 	width: 100%;
 	overflow: hidden;
 	background: linear-gradient(
@@ -263,7 +263,7 @@ body {
 	background-repeat: no-repeat;
 	display: block;
 	position: absolute;
-	top: 100px;
+	top: 80px;
 	left: 300px;
 	z-index: 5;
 }
@@ -350,11 +350,11 @@ body {
 	.raysLogo {
 		left: 0px;
 		background-size: contain;
-		top: 200px;
+		top: 100px;
 		width: 78%;
 	}
 	.main {
-		height: 100vh;
+		height: 106vh;
 		width: 100vw;
 	}
 	.raysDemoHolder {
@@ -409,7 +409,7 @@ body {
 }
 @media (min-width: 900px) and (max-width: 1300px) {
 	.main {
-		height: 100vh;
+		/* height: 100vh; */
 		width: 100vw;
 	}
 	.raysLogo {
