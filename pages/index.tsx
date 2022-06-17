@@ -10,7 +10,6 @@ import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
 	const { keyframes, animationOptions } = rotateOutUpRight;
-
 	return (
 		<>
 			<section className="main" style={{}}>
