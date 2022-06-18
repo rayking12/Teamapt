@@ -8,17 +8,12 @@
 	}
 }
 
-/* html,
-body {
-	height: 100%;
-} */
 body {
 	margin: 0%;
-	/* overflow: hidden; */
 }
 
 .main {
-	/* height: fit-content(200rem); */
+	height: fit-content();
 	padding-bottom: 40px;
 	width: 100%;
 	overflow: hidden;
@@ -34,7 +29,7 @@ body {
 
 .main-wrapper {
 	display: flex;
-	margin-bottom: 15%;
+	margin-bottom: 5%;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
@@ -68,7 +63,7 @@ body {
 }
 .img-div1 {
 	width: 40px;
-	margin-top: 10px;
+
 	margin-left: 20px;
 }
 
@@ -258,7 +253,7 @@ body {
 }
 .raysDemoHolder {
 	position: relative;
-	width: 800px;
+	width: 600px;
 	height: 40px;
 }
 .raysLogo {
@@ -295,7 +290,7 @@ body {
 	background-image: url(/image/coinleft.png);
 	position: absolute;
 
-	left: 350px;
+	left: 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	animation-name: MoveUpDownLeft;
@@ -309,7 +304,7 @@ body {
 	background-image: url(/image/coinright.png);
 	position: absolute;
 
-	right: -250px;
+	right: 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	animation-name: MoveUpDownRight;
@@ -327,7 +322,7 @@ body {
 	width: 1000px;
 	height: 1000px;
 	top: -300px;
-	left: -100px;
+	left: -220px;
 	animation-name: spin;
 	animation-duration: 40000ms;
 	animation-iteration-count: infinite;
@@ -351,64 +346,12 @@ body {
 		padding: 10px;
 	}
 	.raysDemoHolder {
-		width: 600px;
+		width: 500px;
+	}
+	.main-wrapper {
+		margin-bottom: 15%;
 	}
 	.rays {
-		left: -270px;
-	}
-	.coin-left {
-		left: 0px;
-	}
-	.coin-right {
-		right: 100px;
-	}
-}
-
-@media (min-width: 500px) and (max-width: 680px) {
-	.raysLogo {
-		left: 80px;
-	}
-	.rays {
-		left: -200px;
-	}
-	.coin-left {
-		left: 0px;
-	}
-	.coin-right {
-		right: 100px;
-	}
-}
-@media (min-width: 680px) and (max-width: 900px) {
-	/* .raysLogo {
-		left: -50px;
-		background-size: contain;
-		top: 300px;
-	} */
-	.rays {
-		/* left: -130px; */
-		top: 50px;
-	}
-	.coin-left {
-		left: 0px;
-	}
-	.coin-right {
-		right: 100px;
-	}
-}
-@media (min-width: 900px) and (max-width: 1300px) {
-	/* .raysLogo {
-		left: calc(2% * 4);
-		background-size: contain;
-		top: 80px;
-	} */
-	.rays {
-		/* left: -70px;
-		top: -80px; */
-	}
-	.coin-left {
-		left: 0px;
-	}
-	.coin-right {
-		right: 100px;
+		left: -250px;
 	}
 }
